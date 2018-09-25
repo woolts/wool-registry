@@ -1,4 +1,22 @@
 {
+  "alice/package": {
+    "version": "1.0.0",
+    "constraint": "1.0.0 <= v < 2.0.0"
+  },
+  "bob/package": {
+    "version": "1.0.0",
+    "constraint": "1.0.0 <= v < 2.0.0"
+  },
+  "lsjroberts/example": {
+    "version": "1.1.0",
+    "constraint": "1.1.0 <= v < 2.0.0"
+  },
+  "wool-server/program": {
+    "version": "0.0.0"
+  },
+  "wool-server/router": {
+    "version": "0.0.0"
+  },
   "wool/colors": {
     "version": "0.0.0"
   },
@@ -6,12 +24,6 @@
     "version": "0.0.0"
   },
   "wool/utils": {
-    "version": "0.0.0"
-  },
-  "wool-server/program": {
-    "version": "0.0.0"
-  },
-  "wool-server/router": {
     "version": "0.0.0"
   }
 }
