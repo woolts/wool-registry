@@ -3,15 +3,12 @@
   "entry": "src/index.ts",
   "dependencies": {
     "direct": {
-      "lsjroberts/example": "1.1.0 <= v < 2.0.0",
       "wool-server/program": "0.0.0 <= v < 1.0.0",
       "wool-server/router": "0.0.0 <= v < 1.0.0",
       "wool/errors": "0.0.0 <= v < 1.0.0",
       "wool/utils": "0.0.0 <= v < 1.0.0"
     },
     "indirect": {
-      "alice/package": "1.0.0 <= v < 2.0.0",
-      "bob/package": "1.0.0 <= v < 2.0.0",
       "wool/colors": "0.0.0 <= v < 1.0.0"
     }
   }
