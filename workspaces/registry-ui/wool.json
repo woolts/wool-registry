@@ -1,0 +1,4 @@
+{
+  "name": "lsjroberts/registry-ui",
+  "entry": "src/index.ts"
+}

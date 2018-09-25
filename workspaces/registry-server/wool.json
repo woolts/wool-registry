@@ -1,0 +1,11 @@
+{
+  "name": "lsjroberts/registry",
+  "entry": "src/index.ts",
+  "dependencies": {
+    "wool/colors": "0.0.0 <= v < 1.0.0",
+    "wool/errors": "0.0.0 <= v < 1.0.0",
+    "wool/utils": "0.0.0 <= v < 1.0.0",
+    "wool-server/program": "0.0.0 <= v < 1.0.0",
+    "wool-server/router": "0.0.0 <= v < 1.0.0"
+  }
+}
