@@ -5,7 +5,7 @@ import router from './router';
 
 export default (name, host, port) => {
   return sandbox({ router })(port).then(async () => {
-    await packages.refresh('example');
+    await packages.refresh(name);
 
     console.log(`Serving wool registry "${name}"`);
     console.log('');
